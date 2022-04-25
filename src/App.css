@@ -1,38 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --display-font: "Roboto Mono", monospace;
+  --body-font: "Roboto", sans-serif;
+  --basic-size: 0.95rem;
+}
+
+html {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: var(--basic-size);
+  line-height: 2rem;
+}
+
 .App {
-  text-align: center;
+  color: #dadada;
+  background-color: #141414;
+  font-family: "Roboto Mono", monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* ---Navigation Bar --- */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBar {
+  padding: 0px 40px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 4.8rem;
+  background-color: black;
+  font-family: var(--display-font);
 }
 
-.App-link {
-  color: #61dafb;
+.navBar ul {
+  display: flex;
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navBar li {
+  padding-left: 2.8rem;
+  color: #dadada;
+  text-decoration: none;
+  font-size: var(--basic-size);
+  font-weight: 500;
+}
+
+.navBar a {
+  color: #dadada;
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: 900;
+}
+
+p {
+  font-family: var(--body-font);
+}
+
+/* Introduction  */
+
+.introduction {
+  display: flex;
+  width: 90%;
+  margin: 4vw auto;
+  position: relative;
+  min-height: 20rem;
+}
+
+.introduction img {
+  width: 20rem;
+  height: 20rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+.introduction article {
+  padding: 2rem 2rem 2rem 0px;
+  margin: auto;
+}
+
+.introduction h4,
+.introduction p {
+  font-family: var(--display-font);
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+}
+
+.introduction h3 {
+  padding-top: 1.75rem;
+}
+
+/* Projects  */
+.title {
+  padding-left: 40px;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-gap: 20px; */
+  grid-row-gap: 4rem;
+  grid-column-gap: 20px;
+  padding: 1rem 0rem 4rem 0rem;
+  margin: 0px 40px;
+  /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+}
+
+.project a {
+  color: #dadada;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: var(--basic-size);
+}
+
+.project-preview {
+  overflow: hidden;
+  height: 27vw;
+  /* transition: height 0.5s cubic-bezier(.5,0,.44,.99); */
+}
+
+.project-preview img {
+  width: 75%;
+  overflow: hidden;
+  margin: 12% 10% 0% 15%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+#project1 .project-preview {
+  background-color: #d61e93;
+}
+
+#project2 .project-preview {
+  background-color: #1ec5c5;
+}
+
+#project3 .project-preview {
+  background-color: #eed704;
+}
+
+#project4 .project-preview {
+  background-color: #1f1e1e;
+}
+
+#projects h4 {
+  padding-top: 0.75rem;
+  font-size: 0.9rem;
+  color: #dadada;
+}
+
+#projects p {
+  color: #dadada;
+  padding-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .about p {
+    font-size: 1rem;
+    line-height: 2.6rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  #projects {
+    grid-template-columns: 1fr;
+  }
+
+  .project-preview {
+    height: 60vw;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .introduction {
+    width: 100%;
+  }
+  
+  .introduction img {
+    display: none;
+  }
+
+  .introduction article {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+    padding: 15px 40px;
+  }
+
+  #logo {
+    padding-top: 1rem;
+  }
+
+  header h2 {
+    padding-top: 1rem;
+  }
+
+  header nav {
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header a {
+    padding-left: 0px;
+    padding-right: 1rem;
+    font-size: 0.9rem;
   }
 }
