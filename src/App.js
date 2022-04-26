@@ -8,17 +8,17 @@ import Project3 from "./Project3";
 import Project4 from "./Project4";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./Footer";
-import { useState } from "react";
+// import { useState } from "react";
 
 function App() {
-  const [theme, setTheme] = useState("");
+  // const [theme, setTheme] = useState("home");
 
   return (
     <Router>
-      <div className={"App " + theme}>
+      <div className="App">
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />}/>
           <Route path="/about" element={<About />} />
           <Route path="/project1" element={<Project1 />} />
           <Route path="/project2" element={<Project2 />} />

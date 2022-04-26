@@ -11,6 +11,11 @@
   --display-font: "Roboto Mono", monospace;
   --body-font: "Roboto", sans-serif;
   --basic-size: 0.95rem;
+  --theme-color1: #d61e93;
+  --theme-color2: #1ec5c5;
+  --theme-color3: #eed704;
+  --theme-color4: #1f1e1e;
+  --white-text: #dadada;
 }
 
 html {
@@ -139,23 +144,24 @@ h3 {
   width: 75%;
   overflow: hidden;
   margin: 12% 10% 0% 15%;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 
 #project1 .project-preview {
-  background-color: #d61e93;
+  background-color: var(--theme-color1);
 }
 
 #project2 .project-preview {
-  background-color: #1ec5c5;
+  background-color: var(--theme-color2);
 }
 
 #project3 .project-preview {
-  background-color: #eed704;
+  background-color: var(--theme-color3);
 }
 
 #project4 .project-preview {
-  background-color: #1f1e1e;
+  background-color: var(--theme-color4);
 }
 
 #projects h4 {
@@ -178,7 +184,7 @@ footer {
   padding: 3rem 40px;
 }
 
-footer section{
+footer section {
   display: flex;
   flex-wrap: wrap;
   row-gap: 2rem;
@@ -189,7 +195,8 @@ footer ul {
   list-style: none;
 }
 
-footer li, footer a {
+footer li,
+footer a {
   color: #dadada;
   display: flex;
   align-items: center;
@@ -201,7 +208,7 @@ footer ul {
   margin-right: 10%;
 }
 
-footer nav{
+footer nav {
   display: flex;
   flex-direction: column;
   font-weight: bold;
@@ -240,7 +247,7 @@ footer .arrow-up {
   .introduction {
     width: 100%;
   }
-  
+
   .introduction img {
     display: none;
   }
@@ -291,3 +298,6 @@ footer .arrow-up {
     margin-right: 0px;
   }
 }
+
+/* project page styling */
+
