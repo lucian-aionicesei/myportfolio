@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar(props) {
   return (
-    <nav className="navBar">
+    <nav className="navBar" id="naviBar">
       <Link to={"/"}>
         <h3 className="logo">Lucian Aionicesei</h3>
       </Link>

@@ -15,11 +15,16 @@
 
 html {
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 h3 {
   font-size: var(--basic-size);
   line-height: 2rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 .App {
@@ -46,7 +51,7 @@ h3 {
 }
 
 .navBar li {
-  padding-left: 2.8rem;
+  padding-left: 2.5rem;
   color: #dadada;
   text-decoration: none;
   font-size: var(--basic-size);
@@ -165,6 +170,57 @@ h3 {
   font-size: 0.9rem;
 }
 
+/* Footer */
+
+footer {
+  background-color: black;
+  margin-top: 5rem;
+  padding: 3rem 40px;
+}
+
+footer section{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  padding-top: 1.5rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li, footer a {
+  color: #dadada;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  word-wrap: break-word;
+}
+
+footer ul {
+  margin-right: 10%;
+}
+
+footer nav{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+footer img {
+  padding-right: 1rem;
+}
+
+footer .arrow-up {
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.arrow-up img {
+  width: 2.2rem;
+  padding-right: 0px;
+}
+
 @media only screen and (max-width: 1200px) {
   .about p {
     font-size: 1rem;
@@ -195,7 +251,7 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
-  header {
+  .navBar {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
@@ -207,20 +263,31 @@ h3 {
     padding-top: 1rem;
   }
 
-  header h2 {
+  .navBar h2 {
     padding-top: 1rem;
   }
 
-  header nav {
+  .navBar ul {
     padding-top: 1rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
   }
 
-  header a {
+  .navBar li {
     padding-left: 0px;
-    padding-right: 1rem;
     font-size: 0.9rem;
+  }
+
+  #projects {
+    padding-bottom: 0px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+
+  footer ul {
+    margin-right: 0px;
   }
 }

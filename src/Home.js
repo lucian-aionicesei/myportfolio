@@ -1,10 +1,8 @@
-import NavBar from "./NavBar";
 import { Link } from "react-router-dom"
 
 export default function Home() {
     return (
       <> 
-        <NavBar />
             <Introduction />
             <Projects />
       </>
@@ -66,7 +64,7 @@ const projects = [
         <h3 className="title">Projects</h3>
         <div id="projects">
             {projects.map(project => {
-                return <ProjectTile id={project.id} path={project.path} imgPath={project.imgPath} title={project.title} description={project.description}/>
+                return <ProjectTile key={project.id} id={project.id} path={project.path} imgPath={project.imgPath} title={project.title} description={project.description}/>
             })}
         </div>
       </>
