@@ -8,10 +8,8 @@ import Project3 from "./Project3";
 import Project4 from "./Project4";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./Footer";
-// import { useState } from "react";
 
 function App() {
-  // const [theme, setTheme] = useState("home");
 
   return (
     <Router>
