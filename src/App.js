@@ -12,7 +12,7 @@ import ScrollToTop from "./scrollToTop";
 function App() {
 
   return (
-    <Router>
+    <Router basename="/">
       <ScrollToTop />
       <div className="App">
         <Routes>
