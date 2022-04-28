@@ -1,18 +1,21 @@
 import { Link } from "react-router-dom";
 
 export default function NavBar(props) {
+
+  const darkText = props.theme === "project-theme2" || props.theme === "project-theme3" ? "dark-text" : "white-text";
+
   return (
-    <nav className="navBar" id="naviBar">
+    <nav className={"navBar " + props.theme} id="naviBar">
       <Link to={"/"}>
-        <h3 className="logo">Lucian Aionicesei</h3>
+        <h3 className={"logo " + darkText}>Lucian Aionicesei</h3>
       </Link>
       <ul>
         <Link to={"/"}>
-          <li>Projects</li>
+          <li className={darkText}>Projects</li>
         </Link>
-        <Link to={"/about"}><li>About</li></Link>
+        <Link className={darkText} to={"/about"}><li>About</li></Link>
         <li>
-          <a
+          <a className={darkText}
             href="https://github.com/lucian-aionicesei"
             target="_blank"
             rel="noreferrer noopener"

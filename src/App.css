@@ -15,6 +15,7 @@
   --theme-color2: #1ec5c5;
   --theme-color3: #eed704;
   --theme-color4: #1f1e1e;
+  --theme-color4up: #652D90;
   --white-text: #dadada;
 }
 
@@ -57,14 +58,12 @@ a {
 
 .navBar li {
   padding-left: 2.5rem;
-  color: #dadada;
   text-decoration: none;
   font-size: var(--basic-size);
   font-weight: 500;
 }
 
 .navBar a {
-  color: #dadada;
   text-decoration: none;
 }
 
@@ -321,6 +320,11 @@ footer .arrow-up {
   color: var(--white-text);
 }
 
+.project-theme4up {
+  background-color: var(--theme-color4up);
+  color: var(--white-text);
+}
+
 .project-intro article {
   height: calc(100vh - 4.8rem);
   padding: 5.5rem 10vw 0px 40px;
@@ -381,12 +385,10 @@ footer .arrow-up {
   margin: 10rem 5rem;
   column-gap: 5rem;
   row-gap: 5rem;
-  /* overflow: visible; */
-
 }
 
 .tiles article {
-  background-color: var(--theme-color2);
+  /* background-color: var(--theme-color2); */
   height: fit-content;
   max-width: 25rem;
   min-width: 18rem;
@@ -404,6 +406,34 @@ footer .arrow-up {
   bottom: 1rem;
 }
 
+.tiles p {
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  padding-bottom: 0.7rem;
+}
+
+.tiles h1 {
+  line-height: 2rem;
+  padding-bottom: 1rem;
+  text-underline-offset: 4px;
+}
+
+.theme1-line {
+  text-decoration: underline var(--theme-color1) 2px;
+}
+
+.theme2-line {
+  text-decoration: underline var(--theme-color2) 2px;
+}
+
+.theme3-line {
+  text-decoration: underline var(--theme-color3) 2px;
+}
+
+.theme4-line {
+  text-decoration: underline #652D90 2px;
+}
+
 @media only screen and (max-width: 1000px) {
   .project-intro article {
     height: auto;
@@ -413,6 +443,25 @@ footer .arrow-up {
 
   .project-intro h1 {
     margin: 3rem 0px 1rem 0px;
+  }
+
+  .tiles {
+    margin: 10rem 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .tiles {
+    column-count: 1;
+  }
+
+  .tiles article {
+    margin: 0px auto 4rem 0px;
+    min-width: 15rem;
+  }
+
+  .tiles article:nth-child(even) {
+    margin: 0px 0px 4rem auto;
   }
 }
 

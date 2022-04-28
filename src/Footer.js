@@ -32,8 +32,12 @@ export default function Footer() {
           </li>
         </ul>
         <nav>
-          <a href="#naviBar">Lucian Aionicesei</a>
-          <a href="#naviBar">Projects</a>
+          <Link to={"/"}>
+            Lucian Aionicesei
+          </Link>
+          <Link to={"/"}>
+            Projects
+          </Link>
           <Link to={"/about"}>About</Link>
         </nav>
         <a href="#naviBar" className="arrow-up">

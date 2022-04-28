@@ -1,6 +1,9 @@
+import NavBar from "./NavBar";
+
 export default function Project2() {
   return (
     <>
+    <NavBar theme="project-theme2"/>
       <div className="project-intro project-theme2">
         <article>
           <section>
@@ -44,60 +47,36 @@ export default function Project2() {
         </article>
       </div>
       <div className="tiles">
-        <article>
-          <section>
-            <h1>Tools</h1>
+        <article className="project-theme2">
+          <section className="white-text">
+            <h1 className="theme3-line">Tools</h1>
             <p>Vanilla Js</p>
-            <p>SCSS</p>
-            <p>Vites</p>
+            <p>CSS</p>
+            <p>RestDb</p>
             <p>Git</p>
-            <p>Figma</p>
+            <p>Insomnia</p>
+            <p>Adobe XD</p>
           </section>
         </article>
-        <article>
-          <section>
-            <h1>Tools</h1>
-            <p>Vanilla Js</p>
-            <p>SCSS</p>
-            <p>Vites</p>
-            <p>Git</p>
-            <p>Figma</p>
+        <article className="project-theme2">
+          <section className="white-text">
+            <h1 className="theme3-line">Project focus</h1>
+            <p>Website related, the aim of the project was to make design decisions based on research, get used with manipulating data from a database (RestDb), implement JavaScript libraries and working together using Git.</p>
           </section>
         </article>
-        <article>
-          <section>
-            <h1>Tools</h1>
-            <p>Vanilla Js</p>
-            <p>SCSS</p>
-            <p>Vites</p>
-            <p>Vites</p>
-            <p>Git</p>
-            <p>Figma</p>
-            <p>Git</p>
-            <p>Figma</p>
+        <article className="project-theme2">
+          <section className="white-text">
+            <h1 className="theme3-line">Individual work</h1>
+            <p>Consciousness page</p>
+            <p>Responsive header</p>
+            <p>Design of the website</p>
           </section>
         </article>
-        <article>
-          <section>
-            <h1>Tools</h1>
-            <p>Vanilla Js</p>
-            <p>SCSS</p>
-            <p>Vites</p>
-            <p>Git</p>
-            <p>Figma</p>
-          </section>
-        </article>
-        <article>
-          <section>
-            <h1>Tools</h1>
-            <p>Vanilla Js</p>
-            <p>SCSS</p>
-            <p>Vites</p>
-            <p>Git</p>
-            <p>Figma</p>
-            <p>Vites</p>
-            <p>Git</p>
-            <p>Figma</p>
+        <article className="project-theme2">
+          <section className="white-text">
+            <h1 className="theme3-line">Insights</h1>
+            <p>We used JavaScript to dynamically fetch and display the data from the database. For displaying charts on the Consciousness page, we used APEX Charts library.</p>
+            <p>To measure our SEO and overall performance we used Lighthouse in Chrome's Dev Tools. We compressed our assets and converted them into .webp files for a better user experience.</p>
           </section>
         </article>
       </div>
