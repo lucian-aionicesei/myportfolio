@@ -8,7 +8,10 @@ export default function Project3() {
         <article>
           <section>
             <h1>
-              <a className="dark-text" href="http://">
+              <a className="dark-text" href="https://ngeorge07.github.io/SILFEN-website/" 
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 SILFEN Bags
               </a>
             </h1>
@@ -19,15 +22,24 @@ export default function Project3() {
               landing page + product page for SILFEN's upcoming PROM collection.
             </p>
             <nav className="links">
-              <a className="dark-text" href="http://">
+              <a className="dark-text" href="https://ngeorge07.github.io/SILFEN-website/" 
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <img src="/assets/icons/website-dark.svg" alt="" /> SILFEN Bags
               </a>
-              <a className="dark-text" href="http://">
+              <a className="dark-text" href="https://github.com/ngeorge07/SILFEN-website" 
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <img src="/assets/icons/github-dark.svg" alt="" /> GitHub repo
               </a>
             </nav>
           </section>
-          <a href="http://">
+          <a href="https://ngeorge07.github.io/SILFEN-website/" 
+                target="_blank"
+                rel="noreferrer noopener"
+              >
             <img
               className="img-preview"
               src="/assets/images/silfen/silfen-bags.svg"

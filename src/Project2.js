@@ -3,12 +3,17 @@ import NavBar from "./NavBar";
 export default function Project2() {
   return (
     <>
-    <NavBar theme="project-theme2"/>
+      <NavBar theme="project-theme2" />
       <div className="project-intro project-theme2">
         <article>
           <section>
             <h1>
-              <a className="dark-text" href="http://">
+              <a
+                className="dark-text"
+                href="https://ngeorge07.github.io/sem2-exam-AKVA/index.html"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 AKVA Jewellery
               </a>
             </h1>
@@ -28,16 +33,30 @@ export default function Project2() {
               their production process.
             </p>
             <nav className="links">
-              <a className="dark-text" href="http://">
+              <a
+                className="dark-text"
+                href="https://ngeorge07.github.io/sem2-exam-AKVA/index.html"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <img src="/assets/icons/website-dark.svg" alt="" /> AKVA
                 Jewellery
               </a>
-              <a className="dark-text" href="http://">
+              <a
+                className="dark-text"
+                href="https://github.com/ngeorge07/sem2-exam-AKVA"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <img src="/assets/icons/github-dark.svg" alt="" /> GitHub repo
               </a>
             </nav>
           </section>
-          <a href="http://">
+          <a
+            href="https://ngeorge07.github.io/sem2-exam-AKVA/index.html"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img
               className="img-preview"
               src="/assets/images/akva/akva-jewellery.svg"
@@ -61,7 +80,12 @@ export default function Project2() {
         <article className="project-theme2">
           <section className="white-text">
             <h1 className="theme3-line">Project focus</h1>
-            <p>Website related, the aim of the project was to make design decisions based on research, get used with manipulating data from a database (RestDb), implement JavaScript libraries and working together using Git.</p>
+            <p>
+              Website related, the aim of the project was to make design
+              decisions based on research, get used with manipulating data from
+              a database (RestDb), implement JavaScript libraries and working
+              together using Git.
+            </p>
           </section>
         </article>
         <article className="project-theme2">
@@ -75,8 +99,16 @@ export default function Project2() {
         <article className="project-theme2">
           <section className="white-text">
             <h1 className="theme3-line">Insights</h1>
-            <p>We used JavaScript to dynamically fetch and display the data from the database. For displaying charts on the Consciousness page, we used APEX Charts library.</p>
-            <p>To measure our SEO and overall performance we used Lighthouse in Chrome's Dev Tools. We compressed our assets and converted them into .webp files for a better user experience.</p>
+            <p>
+              We used JavaScript to dynamically fetch and display the data from
+              the database. For displaying charts on the Consciousness page, we
+              used APEX Charts library.
+            </p>
+            <p>
+              To measure our SEO and overall performance we used Lighthouse in
+              Chrome's Dev Tools. We compressed our assets and converted them
+              into .webp files for a better user experience.
+            </p>
           </section>
         </article>
       </div>

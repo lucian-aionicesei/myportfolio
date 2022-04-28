@@ -8,7 +8,7 @@ export default function Project1(props) {
         <article>
           <section>
             <h1>
-              <a className="white-text" href="http://">
+              <a className="white-text" href="https://carbon-tracker.netlify.app/" target="_blank" rel="noreferrer noopener">
                 Carbon Tracker
               </a>
             </h1>
@@ -25,15 +25,15 @@ export default function Project1(props) {
               to take a greener approach.
             </p>
             <nav className="links">
-              <a className="white-text" href="http://">
+              <a className="white-text" href="https://carbon-tracker.netlify.app/" target="_blank" rel="noreferrer noopener">
                 <img src="/assets/icons/website.svg" alt="" /> Carbon Tracker
               </a>
-              <a className="white-text" href="http://">
+              <a className="white-text" href="https://github.com/lucian-aionicesei/carbon-tracker" target="_blank" rel="noreferrer noopener">
                 <img src="/assets/icons/github.svg" alt="" /> GitHub repo
               </a>
             </nav>
           </section>
-          <a href="http://">
+          <a href="https://carbon-tracker.netlify.app/" target="_blank" rel="noreferrer noopener">
             <img
               className="img-preview"
               src="/assets/images/carbontracker/carbon-tracker.svg"
