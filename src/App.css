@@ -340,7 +340,7 @@ footer .arrow-up {
 }
 
 .white-text {
-  color: var(--white-text)
+  color: var(--white-text);
 }
 
 .dark-text {
@@ -356,7 +356,7 @@ footer .arrow-up {
 .img-preview {
   width: 100%;
   align-self: center;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
 
 .links {
@@ -372,8 +372,36 @@ footer .arrow-up {
   font-size: 0.9rem;
 }
 
-.links a img{
+.links a img {
   padding-right: 15px;
+}
+
+.tiles {
+  column-count: 2;
+  margin: 10rem 5rem;
+  column-gap: 5rem;
+  row-gap: 5rem;
+  /* overflow: visible; */
+
+}
+
+.tiles article {
+  background-color: var(--theme-color2);
+  height: fit-content;
+  max-width: 25rem;
+  min-width: 18rem;
+  margin: 0px auto 4rem auto;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.tiles section {
+  background-color: #1f1e1e;
+  position: relative;
+  padding: 2rem;
+  right: 1rem;
+  bottom: 1rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -383,15 +411,13 @@ footer .arrow-up {
     flex-direction: column-reverse;
   }
 
-  
   .project-intro h1 {
     margin: 3rem 0px 1rem 0px;
   }
-
 }
 
 @media only screen and (max-width: 600px) {
-  .project-intro article { 
-  padding: 5.5rem 40px 0px 40px;
+  .project-intro article {
+    padding: 5.5rem 40px 0px 40px;
   }
 }
