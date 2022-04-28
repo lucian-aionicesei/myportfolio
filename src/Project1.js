@@ -1,14 +1,18 @@
 import NavBar from "./NavBar";
 export default function Project1(props) {
-
   return (
     <>
-      <NavBar theme="project-theme1"/>
+      <NavBar theme="project-theme1" />
       <div className="project-intro project-theme1">
         <article>
           <section>
             <h1>
-              <a className="white-text" href="https://carbon-tracker.netlify.app/" target="_blank" rel="noreferrer noopener">
+              <a
+                className="white-text"
+                href="https://carbon-tracker.netlify.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 Carbon Tracker
               </a>
             </h1>
@@ -24,16 +28,34 @@ export default function Project1(props) {
               understand, impactful way, but also encourage the user/developer
               to take a greener approach.
             </p>
+            <p>
+              ! The Website Carbon API may not always function. Suggested URL to
+              test: Kea.dk
+            </p>
             <nav className="links">
-              <a className="white-text" href="https://carbon-tracker.netlify.app/" target="_blank" rel="noreferrer noopener">
+              <a
+                className="white-text"
+                href="https://carbon-tracker.netlify.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <img src="/assets/icons/website.svg" alt="" /> Carbon Tracker
               </a>
-              <a className="white-text" href="https://github.com/lucian-aionicesei/carbon-tracker" target="_blank" rel="noreferrer noopener">
+              <a
+                className="white-text"
+                href="https://github.com/lucian-aionicesei/carbon-tracker"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <img src="/assets/icons/github.svg" alt="" /> GitHub repo
               </a>
             </nav>
           </section>
-          <a href="https://carbon-tracker.netlify.app/" target="_blank" rel="noreferrer noopener">
+          <a
+            href="https://carbon-tracker.netlify.app/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img
               className="img-preview"
               src="/assets/images/carbontracker/carbon-tracker.svg"
