@@ -19,9 +19,7 @@ function Introduction() {
         <h4>Lucian</h4>
         <p>Frontend Development student at KEA</p>
         <h3>
-          Hey! I am currently looking for an internship and would love to be
-          part of your team. Please take a look at my projects and contact me if
-          you want to find out more.
+        Hello! My name is Lucian and I am a multimedia design student specialized in front-end development. Take a look at my projects below and contact me for more information.
         </h3>
       </article>
     </section>

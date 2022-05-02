@@ -108,6 +108,10 @@ p {
   padding-top: 1.75rem;
 }
 
+.introduction img {
+  border-radius: 50%;
+}
+
 /* Projects  */
 .title {
   padding-left: 40px;
@@ -382,7 +386,7 @@ footer .arrow-up {
 
 .tiles {
   column-count: 2;
-  margin: 10rem 5rem;
+  margin: 8rem 5rem;
   column-gap: 5rem;
   row-gap: 5rem;
 }
@@ -446,7 +450,7 @@ footer .arrow-up {
   }
 
   .tiles {
-    margin: 10rem 40px;
+    margin: 8rem 40px;
   }
 }
 
@@ -463,10 +467,14 @@ footer .arrow-up {
   .tiles article:nth-child(even) {
     margin: 0px 0px 4rem auto;
   }
+
+  .project-intro article {
+    padding: 3.5rem 40px 0px 40px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .project-intro article {
-    padding: 5.5rem 40px 0px 40px;
+    padding: 2rem 40px 0px 40px;
   }
 }
