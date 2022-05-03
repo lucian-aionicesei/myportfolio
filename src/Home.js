@@ -30,28 +30,28 @@ function Projects() {
   const projects = [
     {
       id: "project1",
-      path: "/project1",
+      path: "/Carbon-tracker",
       imgPath: "assets/images/carbontracker/carbon-tracker.svg",
       title: "Carbon Tracker",
       description: "Calculate Your Website's CO2 emissions",
     },
     {
       id: "project2",
-      path: "/project2",
+      path: "/Akva-jewellery",
       imgPath: "assets/images/akva/akva-jewellery.svg",
       title: "AKVA Jewellery",
       description: "Website and SoMe strategy",
     },
     {
       id: "project3",
-      path: "/project3",
+      path: "/Silfen-bags",
       imgPath: "assets/images/silfen/silfen-bags.svg",
       title: "SILFEN Bags",
       description: "Website and SoMe strategy",
     },
     {
       id: "project4",
-      path: "/project4",
+      path: "/Student-Joe",
       imgPath: "assets/images/joe/joe.svg",
       title: "Student Joe",
       description: "Interactive Game",
