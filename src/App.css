@@ -79,8 +79,7 @@ p {
 
 .introduction {
   display: flex;
-  width: 90%;
-  margin: 4vw auto;
+  padding: 4vw auto;
   position: relative;
   min-height: 20rem;
 }
@@ -99,9 +98,19 @@ p {
 
 .introduction h4,
 .introduction p {
-  font-family: var(--display-font);
+  font-family: var(--body-font);
   font-size: 0.9rem;
-  padding-top: 0.5rem;
+  padding: 0.5rem 0px;
+}
+
+.intro-content {
+  line-height: 2rem;
+  padding-top: 1rem;
+}
+
+.intro-content p {
+  padding: 1rem 0pc;
+  line-height: 2rem;
 }
 
 .introduction h3 {
@@ -329,6 +338,35 @@ footer .arrow-up {
   color: var(--white-text);
 }
 
+.about-theme {
+  background-color: #00109F;
+  color: var(--white-text);
+}
+
+.about-theme img {
+  margin: 0 0 auto 0;
+}
+
+.skillset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.skillset img {
+  width: 4rem;
+  height: auto;
+  padding: 0;
+}
+
+.skillset p {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
 .project-intro article {
   height: calc(100vh - 4.8rem);
   padding: 5.5rem 10vw 0px 40px;
@@ -336,6 +374,12 @@ footer .arrow-up {
   grid-template-columns: 1.5fr 2fr;
   overflow: hidden;
   position: relative;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-intro section {
