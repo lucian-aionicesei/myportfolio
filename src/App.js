@@ -10,13 +10,12 @@ import Footer from "./Footer";
 import ScrollToTop from "./scrollToTop";
 
 function App() {
-
   return (
     <Router>
       <ScrollToTop />
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />}/>
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Carbon-tracker" element={<Project1 />} />
           <Route path="/Akva-jewellery" element={<Project2 />} />
