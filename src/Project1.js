@@ -58,7 +58,7 @@ export default function Project1(props) {
           >
             <img
               className="img-preview"
-              src="/assets/images/carbontracker/carbon-tracker.svg"
+              src="/assets/images/carbontracker/carbon-tracker2.png"
               alt=""
             />
           </a>

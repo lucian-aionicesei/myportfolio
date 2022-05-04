@@ -42,7 +42,7 @@ export default function Project3() {
               >
             <img
               className="img-preview"
-              src="/assets/images/silfen/silfen-bags.svg"
+              src="/assets/images/silfen/silfen-bags2.png"
               alt=""
             />
           </a>

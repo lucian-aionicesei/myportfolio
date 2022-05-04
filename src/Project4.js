@@ -20,7 +20,7 @@ export default function Project4() {
               </nav>
             </section>
             <a href="https://graphite.dk//semester_1/04_Basic_animation_S21/index.html" target="_blank"
-                rel="noreferrer noopener"><img className="img-preview" src="/assets/images/joe/joe.svg" alt="" /></a>
+                rel="noreferrer noopener"><img className="img-preview" src="/assets/images/joe/joe2.png" alt="" /></a>
           </article>
         </div>
         <div className="tiles">

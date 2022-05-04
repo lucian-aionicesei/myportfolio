@@ -59,7 +59,7 @@ export default function Project2() {
           >
             <img
               className="img-preview"
-              src="/assets/images/akva/akva-jewellery.svg"
+              src="/assets/images/akva/akva-jewellery2.png"
               alt=""
             />
           </a>
