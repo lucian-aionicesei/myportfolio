@@ -44,7 +44,7 @@ export default function Project4() {
         </article>
         <article className="project-theme4up">
           <section className="white-text">
-            <h1 className="theme4-line">Tools</h1>
+            <h1 className="theme4-line">Individual work</h1>
             <p>Design & Concept</p>
             <p>Coding</p>
           </section>

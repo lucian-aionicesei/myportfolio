@@ -15,6 +15,7 @@
   --theme-color2: #1ec5c5;
   --theme-color3: #eed704;
   --theme-color4: #1f1e1e;
+  --theme-color5: #05E96F;
   --theme-color4up: #652D90;
   --white-text: #dadada;
 }
@@ -174,6 +175,10 @@ h3 {
 
 #project4 .project-preview {
   background-color: var(--theme-color4);
+}
+
+#project5 .project-preview {
+  background-color: var(--theme-color5);
 }
 
 #projects h4 {
@@ -336,6 +341,11 @@ footer .arrow-up {
 .project-theme4up {
   background-color: var(--theme-color4up);
   color: var(--white-text);
+}
+
+.project-theme5 {
+  background-color: var(--theme-color5);
+  color: black;
 }
 
 .about-theme {

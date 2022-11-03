@@ -12,8 +12,12 @@ export default function About() {
             <div className="skillset">
             <p> <img src="assets/icons/html.png" alt="" /> HTML</p>
             <p> <img src="assets/icons/css.png" alt="" /> CSS/Sass</p>
+            <p> <img src="assets/icons/tailwind.png" alt="" /> Tailwind</p>
             <p> <img src="assets/icons/js.png" alt="" /> JavaScript</p>
+            <p> <img src="assets/icons/vue.png" alt="" /> Vue</p>
+            <p> <img src="assets/icons/nuxt.png" alt="" /> Nuxt</p>
             <p> <img src="assets/icons/react.png" alt="" /> React</p>
+            <p> <img src="assets/icons/wordpress.png" alt="" /> Wordpress</p>
             <p> <img src="assets/icons/git.png" alt="" /> Git</p>
             <p> <img src="assets/icons/xd.png" alt="" /> Adobe XD</p>
             <p> <img src="assets/icons/ai.png" alt="" /> Illustrator</p>
@@ -23,9 +27,9 @@ export default function About() {
         </article>
         <article className="about-theme">
           <section className="white-text">
-            <h1 className="theme3-line">Loking for internship</h1>
+            <h1 className="theme3-line">Loking for a student job</h1>
             <p>
-              From August 22nd until 28 October
+              I love being a student. But I prefer working more. By the end of January 2023 I will be finished with my Multimedia Design education.
             </p>
           </section>
         </article>
@@ -40,7 +44,7 @@ function Introduction() {
       <img src="assets/images/lucian.png" alt="lucian" />
       <article>
         <h4>Lucian</h4>
-        <p>Frontend Development student at KEA</p>
+        <p>Frontend Development | UI/UX design student</p>
         <section className="intro-content">
           <p>
             The ability to make a design come to life and make it functional is
@@ -54,20 +58,16 @@ function Introduction() {
           </p>
           <p>
             At KEA I got a good understanding of the design principles and how
-            to make design decisions based on research. But the excitement I got
+            to make design decisions based on research. The excitement I got
             from solving the little tasks, like making a dropdown menu, or
             displaying data from a database was far more satisfying than
             anything else.
           </p>
           <p>
-            For that reason I chose to go with the Frontend elective where we
-            explored Css and JavaScript in depth. We are at the point where we
-            are learning React, and just for the fun of it I have designed my
-            portfolio in React.
+          For that reason I chose to go with the Frontend elective where we explored Css and JavaScript in depth. My first (completed) React project is the very website you are on. 
           </p>
           <p>
-            I am now looking for an internship in Frontend development starting
-            on the 22nd of August until the 28 of October.
+          I’ve had my internship at Checkmate, where I’ve added Vue/Nuxt, Wordpress and Gsap to my set of skills, and collaborated with professionals to come up with solutions that are now used by real clients.
           </p>
         </section>
       </article>

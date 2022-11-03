@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar(props) {
 
-  const darkText = props.theme === "project-theme2" || props.theme === "project-theme3" ? "dark-text" : "white-text";
+  const darkText = props.theme === "project-theme2" || props.theme === "project-theme3" || props.theme === "project-theme5" ? "dark-text" : "white-text";
 
   return (
     <nav className={"navBar " + props.theme} id="naviBar">

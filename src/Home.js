@@ -17,7 +17,7 @@ function Introduction() {
       <img src="assets/images/lucian.png" alt="lucian" />
       <article>
         <h4>Lucian</h4>
-        <p>Frontend Development student at KEA</p>
+        <p>Frontend Development | UI/UX design student</p>
         <h3>
         Hello! My name is Lucian and I am a multimedia design student specialized in front-end development. Take a look at my projects below and contact me for more information.
         </h3>
@@ -55,6 +55,13 @@ function Projects() {
       imgPath: "assets/images/joe/joe.png",
       title: "Student Joe",
       description: "Interactive Game",
+    },
+    {
+      id: "project5",
+      path: "/Asgaard-fest",
+      imgPath: "/assets/images/asgaard/asgaard_fest.png",
+      title: "Asgaard Fest",
+      description: "Ticket purchase app",
     },
   ];
 
